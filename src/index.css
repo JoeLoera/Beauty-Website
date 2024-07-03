@@ -11,6 +11,21 @@
   color-scheme: light;
 }
 
+body,
+button,
+input,
+textarea,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  text-transform: uppercase;
+}
+
 body {
   font-family: var(--font-family-sans);
 }
