@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap&family=Open+Sans:wght@400;600&family=Montserrat:wght@700&family=Lato:wght@400;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-family-sans: "Open Sans", sans-serif;
+  --font-family-heading: "Montserrat", sans-serif;
+  --font-family-accent: "Lato", sans-serif;
+  --font-family-logo: "Sawarabi Gothic", sans-serif;
+  color-scheme: light;
+}
+
+body {
+  font-family: var(--font-family-sans);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-family-heading);
+}
+
+.button,
+.cta {
+  font-family: var(--font-family-accent);
+}
+
+.logo {
+  font-family: var(--font-family-logo);
+  font-size: 48px; /* Or any other size */
+  letter-spacing: 0.3em;
+}
