@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap&family=Open+Sans:wght@400;600&family=Montserrat:wght@700&family=Lato:wght@400;700&display=swap");
+/* Adjust the paths below to correctly point to the slick-carousel CSS files in your node_modules directory */
+@import url("../node_modules/slick-carousel/slick/slick.css");
+@import url("../node_modules/slick-carousel/slick/slick-theme.css");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

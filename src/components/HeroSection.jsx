@@ -6,11 +6,10 @@ const HeroSection = () => {
         <br />- Charlotte Tilbury
       </h3>
       <p className="mt-10 sm:mt-20 text-xl sm:text-2xl lg:text-3xl text-center text-neutral-500 max-w-xs sm:max-w-lg lg:max-w-4xl">
-        Michelle, a top makeup artist in Los Angeles, excels in creating
-        stunning looks for any occasion. With years of experience and a talent
-        for enhancing natural beauty, her personalized services leave clients
-        looking and feeling their best. For weddings, events, or photoshoots,
-        Michelle is the go-to artist in LA.
+        Michelle excels in creating stunning looks for weddings, events, and
+        photoshoots. With years of experience, she enhances natural beauty,
+        leaving clients looking and feeling their best. For any occasion,
+        Michelle is LA's go-to makeup artist.
       </p>
     </div>
   );
