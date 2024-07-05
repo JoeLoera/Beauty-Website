@@ -10,10 +10,10 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="sticky top-0 z-50 py-4 my-4 backdrop-blur-lg border-b border-neutral-700/80">
+    <nav className="sticky top-0 z-50 py-4 mt-4 pb-8 backdrop-blur-lg border-b border-neutral-700/80">
       <div className="container px-4 mx-auto relative text-sm">
         <div className="flex justify-between items-center">
-          <h1 className="logo font-semibold ">
+          <h1 className="logo font-semibold text-xl md:text-2xl lg:text-3xl">
             <a href="/">MICHELLE B.</a>
           </h1>
           <ul className="hidden lg:flex space-x-12">
