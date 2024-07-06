@@ -42,11 +42,17 @@ const ImageCarousel = () => {
       <Slider {...settings}>
         {images.map((img, index) => (
           <div key={index} className="px-2">
-            <img
-              src={img}
-              alt={`Slide ${index}`}
-              className="rounded-lg shadow-lg mx-auto"
-            />
+            {/* Cropping container */}
+            <div className="overflow-hidden" style={{ height: "66.66%" }}>
+              {" "}
+              {/* Adjust the height as needed */}
+              <img
+                src={img}
+                alt={`Slide ${index}`}
+                className="rounded-lg shadow-lg mx-auto block"
+                style={{ width: "auto", height: "150%" }} // Adjust the height to ensure the image covers the desired area, may need to adjust based on your specific images
+              />
+            </div>
           </div>
         ))}
       </Slider>
