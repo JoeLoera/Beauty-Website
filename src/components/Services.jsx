@@ -1,0 +1,35 @@
+const Services = () => {
+  return (
+    <div className="flex flex-col items-center justify-center py-20">
+      <h1 className="text-3xl font-bold mb-10">Services</h1>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+        <div className="bg-gray-100 p-5 rounded-lg shadow-lg">
+          <h2 className="text-xl font-bold mb-5">Service 1</h2>
+          <p className="text-gray-600">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+            suscipit, nunc sit amet dictum rutrum, nunc mauris malesuada nisi,
+            ac sagittis nulla urna sit amet est.
+          </p>
+        </div>
+        <div className="bg-gray-100 p-5 rounded-lg shadow-lg">
+          <h2 className="text-xl font-bold mb-5">Service 2</h2>
+          <p className="text-gray-600">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+            suscipit, nunc sit amet dictum rutrum, nunc mauris malesuada nisi,
+            ac sagittis nulla urna sit amet est.
+          </p>
+        </div>
+        <div className="bg-gray-100 p-5 rounded-lg shadow-lg">
+          <h2 className="text-xl font-bold mb-5">Service 3</h2>
+          <p className="text-gray-600">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+            suscipit, nunc sit amet dictum rutrum, nunc mauris malesuada nisi,
+            ac sagittis nulla urna sit amet est.
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Services;
