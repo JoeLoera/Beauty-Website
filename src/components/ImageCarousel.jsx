@@ -39,7 +39,7 @@ const ImageCarousel = () => {
     <>
       <div
         className="pt-1 pb-1"
-        style={{ backgroundColor: "rgba(183, 110, 121, .7)", color: "#FFFFFF" }}
+        style={{ backgroundColor: "rgba(186, 159, 147, 1)", color: "#FFFFFF" }}
       >
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col items-center mt-6 mb-6">

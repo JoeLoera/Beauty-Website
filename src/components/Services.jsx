@@ -3,10 +3,10 @@ const Services = () => {
     <div
       className="pt-1 pb-1"
       style={{
-        backgroundColor: "rgba(183, 110, 121, .7)",
+        backgroundColor: "rgba(217,198,188)",
         color: "#FFFFFF",
         backgroundImage:
-          "linear-gradient(45deg, rgba(255,255,255,0.1) 12.5%, transparent 12.5%, transparent 50%, rgba(255,255,255,0.1) 50%, rgba(255,255,255,0.1) 62.5%, transparent 62.5%, transparent), linear-gradient(45deg, rgba(255,255,255,0.1) 12.5%, transparent 12.5%, transparent 50%, rgba(255,255,255,0.1) 50%, rgba(255,255,255,0.1) 62.5%, transparent 62.5%, transparent)",
+          "linear-gradient(45deg, rgba(217,198,188) 12.5%, transparent 12.5%, transparent 50%, rgba(217,198,188) 50%, rgba(217,198,188) 62.5%, transparent 62.5%, transparent), linear-gradient(45deg, rgba(217,198,188) 12.5%, transparent 12.5%, transparent 50%, rgba(255,255,255,0.1) 50%, rgba(255,255,255,0.1) 62.5%, transparent 62.5%, transparent)",
         backgroundSize: "20px 20px",
         backgroundPosition: "0 0, 10px 10px",
       }}
