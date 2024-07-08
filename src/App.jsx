@@ -8,11 +8,10 @@ const App = () => {
   return (
     <>
       <Navbar />
-      <div className="max-w-7xl mx-auto pt-20 px-">
-        <HeroSection />
-        <ImageCarousel />
-        <Services />
-      </div>
+      <ImageCarousel />
+      <HeroSection />
+
+      <Services />
     </>
   );
 };

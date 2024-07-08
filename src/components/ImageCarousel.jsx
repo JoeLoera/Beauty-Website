@@ -36,27 +36,41 @@ const ImageCarousel = () => {
   const images = [image1, image2, image3, image4, image5]; // Assuming you have these variables defined
 
   return (
-    <div className="mt-12">
-      {" "}
-      {/* Added top margin to the carousel */}
-      <Slider {...settings}>
-        {images.map((img, index) => (
-          <div key={index} className="px-2">
-            {/* Cropping container */}
-            <div className="overflow-hidden" style={{ height: "66.66%" }}>
-              {" "}
-              {/* Adjust the height as needed */}
-              <img
-                src={img}
-                alt={`Slide ${index}`}
-                className="rounded-lg shadow-lg mx-auto block"
-                style={{ width: "auto", height: "150%" }} // Adjust the height to ensure the image covers the desired area, may need to adjust based on your specific images
-              />
-            </div>
+    <>
+      <div
+        className="pt-1 pb-1"
+        style={{ backgroundColor: "rgba(183, 110, 121, .7)", color: "#FFFFFF" }}
+      >
+        <div className="max-w-7xl mx-auto">
+          <div className="flex flex-col items-center mt-6 mb-6">
+            <h6 className="px-10 text-xl sm:text-3xl lg:text-4xl text-center tracking-wide font-semibold leading-normal">
+              <i>“Beauty begins the moment you decide to be yourself”</i>
+              <br />
+              <span style={{ fontSize: "smaller" }}>- Charlotte Tilbury</span>
+            </h6>
           </div>
-        ))}
-      </Slider>
-    </div>
+        </div>
+      </div>
+
+      <div className="mt-10 mb-10">
+        <div className="max-w-7xl mx-auto pt-7 pb-6 px-10">
+          <Slider {...settings}>
+            {images.map((img, index) => (
+              <div key={index} className="px-2">
+                <div className="overflow-hidden" style={{ height: "66.66%" }}>
+                  <img
+                    src={img}
+                    alt={`Slide ${index}`}
+                    className="rounded-lg shadow-lg mx-auto block"
+                    style={{ width: "auto", height: "150%" }}
+                  />
+                </div>
+              </div>
+            ))}
+          </Slider>
+        </div>
+      </div>
+    </>
   );
 };
 
