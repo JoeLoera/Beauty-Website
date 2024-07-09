@@ -32,11 +32,7 @@ const Services = () => {
           </div>
           <div className="bg-gray-100 p-5 rounded-lg shadow-lg">
             <h2 className="text-xl font-bold mb-5">Service 3</h2>
-            <p className="text-gray-600">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-              suscipit, nunc sit amet dictum rutrum, nunc mauris malesuada nisi,
-              ac sagittis nulla urna sit amet est.
-            </p>
+            <p className="text-gray-600"></p>
           </div>
         </div>
       </div>
