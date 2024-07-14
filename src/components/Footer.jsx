@@ -11,14 +11,10 @@ const Footer = () => {
         marginTop: "30px",
       }}
     >
-      <p style={{ margin: "0", padding: "0", fontSize: "16px" }}>
-        © 2023 Your Company Name. All rights reserved.
+      <p style={{ margin: "0", padding: "0", fontSize: "12px" }}>
+        © 2024 MICHELLE B. All rights reserved.
       </p>
       <p style={{ margin: "0", padding: "0", fontSize: "14px" }}>
-        Follow us on:
-        <a href="https://twitter.com" style={{ margin: "0 10px" }}>
-          Twitter
-        </a>
         <a href="https://facebook.com">Facebook</a>
         <a href="https://instagram.com" style={{ margin: "0 10px" }}>
           Instagram
